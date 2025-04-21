@@ -1,0 +1,41 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Datos crudos y pesados (puedes quitar los que sí quieras subir)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# Modelos y outputs pesados
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.sav
+
+# Archivos temporales y de sistema
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+~$*
+
+# Archivos generados por Jupyter
+__pycache__/
+*.pyc
+*.pyo
+
+# Entornos virtuales
+.venv/
+env/
+venv/
+ENV/
+
+# Configuración de VSCode (opcional)
+.vscode/
